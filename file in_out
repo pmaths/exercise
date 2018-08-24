@@ -1,0 +1,16 @@
+import math
+ 
+f= open('text.txt', 'r')
+print f
+f.readline()
+
+for line in f:
+ print line
+
+for line in f:
+ print line
+
+f= open('text.txt', 'a')
+f.write('This test\n')
+
+f.close
